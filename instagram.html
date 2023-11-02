@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Dancing+Script:wght@500;700&family=Noto+Serif:wght@400;700&family=Roboto:ital,wght@1,100;1,300;1,400&display=swap" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <link rel="stylesheet" href="C:\Users\USER\Documents\instagram\Assets\css\instagram.css">
+     <title>instagram</title>
+</head>
+<body>
+
+    <div class="instagram">
+        <div class="header">
+            <div class="header-camera">
+                <i class="bi bi-camera-fill" width="34"></i>
+            </div>
+            <div class="text-insta">
+             <p >instagram</p>
+            </div>
+            <div class="header-send-icon">
+                <i class="bi bi-send" width="34"></i>
+            </div>
+
+        </div>
+        <div class=" d-flex justify-content-between">
+            <div>Stories</div>
+            <div><i class="bi bi-caret-right-fill"></i>Watch All</div>
+        </div>
+        
+
+            <div class="stories">
+                <div class="stories-in d-flex justify-content-start">
+
+                    <div class="storyItems">
+                       
+                            <div class="story-img-bg">
+                                <img class="story-img" src="https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg" alt="">
+                            </div>
+                            <div class="story-title">
+                                loremoim
+                            </div>
+                       
+                    </div> 
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYGn3GlkhbfLaXd0ygpYhtPQSLbkto_Zo8Q&usqp=CAU" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://i0.wp.com/blankhearts.com/wp-content/uploads/2022/10/girl-whatsapp-dp-7.jpg?fit=474%2C790&ssl=1" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://i.pinimg.com/736x/5a/b1/18/5ab118f3146c4c6f0e6428c71f5cf2df.jpg" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGFzchPk6n4Xdo0WsY7vaFmmSbitzwJphqXlB1e0QgWxaub4KKjp0qblLduarmDC80QZU&usqp=CAU" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202006/portrait-4246954_1920.jpeg?size=690:388" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="https://cdn.vanguardngr.com/wp-content/uploads/2023/04/Davido-and-Chioma.jpg" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                    <div class="storyItems">
+                        <div class="story-img-bg">
+                            <img class="story-img" src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                        <div class="story-title">
+                            loremoim
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post mt-5">
+                <div class="post-top d-flex justify-content-between align-items-center">
+                    <div class="post-top-left d-flex">
+                        <img src="https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg" class="rounded-circle" width="50px" >
+                        <div class="info d-flex flex-column ms-3">
+                            <div class="post-top-name  " height="0">Dilara <i class="bi bi-patch-check-fill text-primary"></i> </div>
+                             <div class="post-top-city text-secondary fs-6 ">Turkey, Istanbul</div>
+                        </div>
+                    </div>
+                    <div class="post-top-right">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="post-content mt-3">
+                    <div class="content">
+                        <div class="content-foto">
+                            <img src="https://images1.content-gbl.com/commimg/myhotcourses/institution/CH/section/myhc_301849.jpg" width="480px">
+                            <div class="content-num ">
+                               1/3
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post-actions d-flex justify-content-between mt-2 p-2 align-items-center">
+                    <div class="post-actions-left">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-send"></i>
+                    </div>
+                    <div class="more-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="post-actions-right">
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+
+                </div>
+                <div class="post-botom d-flex align-items-center mt-3">
+                    <img src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" class=" rounded-circle me-2" width="30px">
+                    <div class="likedby">Liked by <span class="fw-bold">Samet Kaya Özkan </span> and <span class="fw-bold"> Özge Koral</span></div>
+                </div>
+                <div class="comment mt-2"><b> Karaman_kha</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, similique.</div>
+            </div>
+            <div class="post mt-5">
+                <div class="post-top d-flex justify-content-between align-items-center">
+                    <div class="post-top-left d-flex">
+                        <img src="https://i0.wp.com/blankhearts.com/wp-content/uploads/2022/10/girl-whatsapp-dp-7.jpg?fit=474%2C790&ssl=1" class="rounded-circle" width="50px" height="50px" >
+                        <div class="info d-flex flex-column ms-3">
+                            <div class="post-top-name  " height="0">semanur <i class="bi bi-patch-check-fill text-primary"></i> </div>
+                             <div class="post-top-city text-secondary fs-6 ">Turkey, Istanbul</div>
+                        </div>
+                    </div>
+                    <div class="post-top-right">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="post-content mt-3">
+                    <div class="content">
+                        <div class="content-foto">
+                            <img src="https://imgv3.fotor.com/images/blog-richtext-image/take-a-picture-with-camera.png" width="480px">
+                            <div class="content-num ">
+                               1/3
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post-actions d-flex justify-content-between mt-2 p-2 align-items-center">
+                    <div class="post-actions-left">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-send"></i>
+                    </div>
+                    <div class="more-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="post-actions-right">
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+
+                </div>
+                <div class="post-botom d-flex align-items-center mt-3">
+                    <img src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" class=" rounded-circle me-2" width="30px">
+                    <div class="likedby">Liked by <span class="fw-bold">Samet Kaya Özkan </span> and <span class="fw-bold"> Özge Koral</span></div>
+                </div>
+                <div class="comment mt-2"><b> Karaman_kha</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, similique.</div>
+            </div>
+            <div class="post mt-5">
+                <div class="post-top d-flex justify-content-between align-items-center">
+                    <div class="post-top-left d-flex rounded-circle ">
+                        <img src="https://iasbh.tmgrup.com.tr/bb556d/0/0/0/0/0/0?u=https://isbh.tmgrup.com.tr/sb/album/2023/03/25/kardeslerimin-asiyesi-su-burcu-yazgi-coskun-cok-kiskancim-oyle-boyle-degil-1679749426831.jpg&mw=600&l=1" class="rounded-circle" width="50px" height="50px">
+                        <div class="info d-flex flex-column ms-3">
+                            <div class="post-top-name  " height="0">kahan komurafas <i class="bi bi-patch-check-fill text-primary"></i> </div>
+                             <div class="post-top-city text-secondary fs-6 ">Turkey, Istanbul</div>
+                        </div>
+                    </div>
+                    <div class="post-top-right">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="post-content mt-3">
+                    <div class="content">
+                        <div class="content-foto">
+                         <video controls src="photoes/video.mp4" class="video"></video>
+                            <div class="content-num ">
+                               1/3
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post-actions d-flex justify-content-between mt-2 p-2 align-items-center">
+                    <div class="post-actions-left">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-send"></i>
+                    </div>
+                    <div class="more-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="post-actions-right">
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+
+                </div>
+                <div class="post-botom d-flex align-items-center mt-3">
+                    <img src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" class=" rounded-circle me-2" width="30px">
+                    <div class="likedby">Liked by <span class="fw-bold">Samet Kaya Özkan </span> and <span class="fw-bold"> Özge Koral</span></div>
+                </div>
+                <div class="comment mt-2"><b> Karaman_kha</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, similique.</div>
+            </div>
+            <div class="post mt-5">
+                <div class="post-top d-flex justify-content-between align-items-center">
+                    <div class="post-top-left d-flex">
+                        <img src="https://i.pinimg.com/736x/5a/b1/18/5ab118f3146c4c6f0e6428c71f5cf2df.jpg" class="rounded-circle" width="50px" >
+                        <div class="info d-flex flex-column ms-3">
+                            <div class="post-top-name  " height="0">Dilara <i class="bi bi-patch-check-fill text-primary"></i> </div>
+                             <div class="post-top-city text-secondary fs-6 ">Turkey, Istanbul</div>
+                        </div>
+                    </div>
+                    <div class="post-top-right">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="post-content mt-3">
+                    <div class="content">
+                        <div class="content-foto">
+                            <img src="https://i.pinimg.com/originals/00/b2/d1/00b2d14b48f398ff54e35e699933a1c5.jpg" width="480px">
+                            <div class="content-num ">
+                               1/3
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post-actions d-flex justify-content-between mt-2 p-2 align-items-center">
+                    <div class="post-actions-left">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-send"></i>
+                    </div>
+                    <div class="more-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="post-actions-right">
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+
+                </div>
+                <div class="post-botom d-flex align-items-center mt-3">
+                    <img src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" class=" rounded-circle me-2" width="30px">
+                    <div class="likedby">Liked by <span class="fw-bold">Samet Kaya Özkan </span> and <span class="fw-bold"> Özge Koral</span></div>
+                </div>
+                <div class="comment mt-2"><b> Karaman_kha</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, similique.</div>
+            </div>
+            <div class="post mt-5">
+                <div class="post-top d-flex justify-content-between align-items-center">
+                    <div class="post-top-left d-flex">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGFzchPk6n4Xdo0WsY7vaFmmSbitzwJphqXlB1e0QgWxaub4KKjp0qblLduarmDC80QZU&usqp=CAU" class="rounded-circle " width="50px" height="50px" >
+                        <div class="info d-flex flex-column ms-3">
+                            <div class="post-top-name  " height="0">loren kortdag <i class="bi bi-patch-check-fill text-primary"></i> </div>
+                             <div class="post-top-city text-secondary fs-6 ">Turkey, Istanbul</div>
+                        </div>
+                    </div>
+                    <div class="post-top-right">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="post-content mt-3">
+                    <div class="content">
+                        <div class="content-foto">
+                            <img src="https://viatravelers.com/wp-content/uploads/2020/05/Alexander-III-Bridge-Paris.jpeg" width="480px">
+                            <div class="content-num ">
+                               1/3
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post-actions d-flex justify-content-between mt-2 p-2 align-items-center">
+                    <div class="post-actions-left">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-send"></i>
+                    </div>
+                    <div class="more-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="post-actions-right">
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+
+                </div>
+                <div class="post-botom d-flex align-items-center mt-3">
+                    <img src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" class=" rounded-circle me-2" width="30px">
+                    <div class="likedby">Liked by <span class="fw-bold">Samet Kaya Özkan </span> and <span class="fw-bold"> Özge Koral</span></div>
+                </div>
+                <div class="comment mt-2"><b> Karaman_kha</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, similique.</div>
+            </div>
+            <div class="post mt-5">
+                <div class="post-top d-flex justify-content-between align-items-center">
+                    <div class="post-top-left d-flex">
+                        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202006/portrait-4246954_1920.jpeg?size=690:388" class="rounded-circle" width="50px" >
+                        <div class="info d-flex flex-column ms-3">
+                            <div class="post-top-name  " height="0">Dilara <i class="bi bi-patch-check-fill text-primary"></i> </div>
+                             <div class="post-top-city text-secondary fs-6 ">Turkey, Istanbul</div>
+                        </div>
+                    </div>
+                    <div class="post-top-right">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                </div>
+                <div class="post-content mt-3">
+                    <div class="content">
+                        <div class="content-foto">
+                            <img src="https://i.pinimg.com/474x/45/5b/c7/455bc7bf14e216824e2cefc86074b752--tumbler-pigeons-birmingham.jpg" width="480px">
+                            <div class="content-num ">
+                               1/3
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="post-actions d-flex justify-content-between mt-2 p-2 align-items-center">
+                    <div class="post-actions-left">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-send"></i>
+                    </div>
+                    <div class="more-icon">
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <div class="post-actions-right">
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+
+                </div>
+                <div class="post-botom d-flex align-items-center mt-3">
+                    <img src="https://i.pinimg.com/736x/aa/56/33/aa56334465d434a2b3e51aa0b87d702c.jpg" class=" rounded-circle me-2" width="30px">
+                    <div class="likedby">Liked by <span class="fw-bold">Samet Kaya Özkan </span> and <span class="fw-bold"> Özge Koral</span></div>
+                </div>
+                <div class="comment mt-2"><b> Karaman_kha</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, similique.</div>
+            </div>
+               <div class="container-sm">
+
+                   <div class="insta-footer  d-flex gap-3 fixed-bottom justify-content-around ">
+                        <div class="footer-icon fs-1">
+                           <i class="bi bi-house-door-fill"></i>
+                        </div>
+                        <div class="footer-icon fs-1">
+                           <i class="bi bi-search"></i>
+                        </div>
+                        <div class="footer-icon fs-1">
+                           <i class="bi bi-plus-square"></i>
+                        </div>
+                        <div class="footer-icon fs-1">
+                           <i class="bi bi-heart"></i>
+                        </div>
+                        <div class="footer-icon fs-1">
+                          <img src="https://cdn.tollywood.net/wp-content/uploads/2019/03/Priyanka-Jawalkar-Latest-Pics-1.jpeg" class="rounded-circle" width="50px" height="50px" >
+                        </div>
+                   </div>
+               </div>
+       
+    </div>
+    
+
+</body>
+</html>
