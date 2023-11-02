@@ -9,5 +9,4 @@ an Instagram frontend page, inspired by the original Instagram page, that is dev
 
 
 
-https://github.com/subinurmusa/instagram-UI-page-/assets/126903155/de48b8ff-53e5-4f0c-82eb-0decd4b29657
 
